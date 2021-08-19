@@ -12,7 +12,7 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tabBar.tintColor = UIColor.label
+        tabBar.tintColor = UIColor.blue
         setupViewControllers()
         
     }
@@ -25,7 +25,7 @@ class TabBarViewController: UITabBarController {
     
     private func createTabBar(for viewController: UIViewController, title: String, systemImage: String) -> UIViewController {
         let iconSymbol = UIImage(systemName: systemImage)
-        let selectedSymbol = UIImage(systemName: systemImage, withConfiguration: UIImage.SymbolConfiguration(weight: .bold))
+        let selectedSymbol = UIImage(systemName: systemImage, withConfiguration: UIImage.SymbolConfiguration(weight: .regular))
         let tabBarItem = UITabBarItem(title: title, image: iconSymbol, selectedImage: selectedSymbol)
         viewController.tabBarItem = tabBarItem
         return viewController

@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		7DF1569A1DD61B4BA646E2F7 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B64CA66309D6B6C0EE52E /* Pods_Runner.framework */; };
 		B519200726CD3BAD00BF8122 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519200626CD3BAD00BF8122 /* HistoryViewController.swift */; };
+		B54D7DB226CE32D10078FEBA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DB126CE32D10078FEBA /* BaseViewController.swift */; };
+		B54D7DB426CE338A0078FEBA /* PreviousRunDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DB326CE338A0078FEBA /* PreviousRunDetailViewController.swift */; };
+		B54D7DB626CE342E0078FEBA /* CurrentRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DB526CE342E0078FEBA /* CurrentRunViewController.swift */; };
+		B54D7DB826CE34F60078FEBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DB726CE34F50078FEBA /* Constants.swift */; };
+		B54D7DBA26CE35910078FEBA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DB926CE35910078FEBA /* Extension.swift */; };
+		B54D7DBC26CE36020078FEBA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DBB26CE36020078FEBA /* LocationManager.swift */; };
+		B54D7DBF26CE372D0078FEBA /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DBE26CE372D0078FEBA /* Run.swift */; };
+		B54D7DC126CE37570078FEBA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DC026CE37570078FEBA /* Location.swift */; };
+		B54D7DC326CE39040078FEBA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DC226CE39040078FEBA /* GradientView.swift */; };
+		B54D7DC526CE393B0078FEBA /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DC426CE393B0078FEBA /* CircularButton.swift */; };
+		B54D7DC726CE39770078FEBA /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D7DC626CE39770078FEBA /* HistoryTableViewCell.swift */; };
 		B5AE29EA26CBC6CC00366297 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE29E926CBC6CC00366297 /* TabBarViewController.swift */; };
 		B5C5158826CB9B5E0090BC5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5158726CB9B5E0090BC5B /* AppDelegate.swift */; };
 		B5C5158A26CB9B5E0090BC5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5158926CB9B5E0090BC5B /* SceneDelegate.swift */; };
@@ -20,6 +31,17 @@
 /* Begin PBXFileReference section */
 		65F5A1F5175B6F3D3FCD9B44 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		B519200626CD3BAD00BF8122 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B54D7DB126CE32D10078FEBA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B54D7DB326CE338A0078FEBA /* PreviousRunDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousRunDetailViewController.swift; sourceTree = "<group>"; };
+		B54D7DB526CE342E0078FEBA /* CurrentRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunViewController.swift; sourceTree = "<group>"; };
+		B54D7DB726CE34F50078FEBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B54D7DB926CE35910078FEBA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B54D7DBB26CE36020078FEBA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B54D7DBE26CE372D0078FEBA /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		B54D7DC026CE37570078FEBA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B54D7DC226CE39040078FEBA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B54D7DC426CE393B0078FEBA /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		B54D7DC626CE39770078FEBA /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		B5AE29E926CBC6CC00366297 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		B5C5158426CB9B5E0090BC5B /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C5158726CB9B5E0090BC5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B54D7DBD26CE371A0078FEBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B54D7DBE26CE372D0078FEBA /* Run.swift */,
+				B54D7DC026CE37570078FEBA /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B5C5157B26CB9B5E0090BC5B = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +100,7 @@
 				B5C515A126CBA18F0090BC5B /* Helper */,
 				B5C515A026CBA1830090BC5B /* Views */,
 				B5C5159F26CBA1770090BC5B /* Controllers */,
+				B54D7DBD26CE371A0078FEBA /* Model */,
 				B5C5159526CB9B5F0090BC5B /* Info.plist */,
 			);
 			path = Runner;
@@ -90,6 +122,9 @@
 				B5C5158B26CB9B5E0090BC5B /* HomeViewController.swift */,
 				B5AE29E926CBC6CC00366297 /* TabBarViewController.swift */,
 				B519200626CD3BAD00BF8122 /* HistoryViewController.swift */,
+				B54D7DB126CE32D10078FEBA /* BaseViewController.swift */,
+				B54D7DB326CE338A0078FEBA /* PreviousRunDetailViewController.swift */,
+				B54D7DB526CE342E0078FEBA /* CurrentRunViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -98,6 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				B5C5159226CB9B5F0090BC5B /* LaunchScreen.storyboard */,
+				B54D7DC226CE39040078FEBA /* GradientView.swift */,
+				B54D7DC426CE393B0078FEBA /* CircularButton.swift */,
+				B54D7DC626CE39770078FEBA /* HistoryTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +143,9 @@
 		B5C515A126CBA18F0090BC5B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B54D7DB726CE34F50078FEBA /* Constants.swift */,
+				B54D7DB926CE35910078FEBA /* Extension.swift */,
+				B54D7DBB26CE36020078FEBA /* LocationManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -239,11 +280,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54D7DB626CE342E0078FEBA /* CurrentRunViewController.swift in Sources */,
+				B54D7DBF26CE372D0078FEBA /* Run.swift in Sources */,
+				B54D7DB426CE338A0078FEBA /* PreviousRunDetailViewController.swift in Sources */,
 				B5AE29EA26CBC6CC00366297 /* TabBarViewController.swift in Sources */,
+				B54D7DC326CE39040078FEBA /* GradientView.swift in Sources */,
+				B54D7DBC26CE36020078FEBA /* LocationManager.swift in Sources */,
 				B5C5158C26CB9B5E0090BC5B /* HomeViewController.swift in Sources */,
+				B54D7DC126CE37570078FEBA /* Location.swift in Sources */,
 				B5C5158826CB9B5E0090BC5B /* AppDelegate.swift in Sources */,
+				B54D7DBA26CE35910078FEBA /* Extension.swift in Sources */,
+				B54D7DC726CE39770078FEBA /* HistoryTableViewCell.swift in Sources */,
 				B519200726CD3BAD00BF8122 /* HistoryViewController.swift in Sources */,
 				B5C5158A26CB9B5E0090BC5B /* SceneDelegate.swift in Sources */,
+				B54D7DB226CE32D10078FEBA /* BaseViewController.swift in Sources */,
+				B54D7DB826CE34F60078FEBA /* Constants.swift in Sources */,
+				B54D7DC526CE393B0078FEBA /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
