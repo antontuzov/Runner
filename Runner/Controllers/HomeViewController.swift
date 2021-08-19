@@ -13,14 +13,14 @@ class HomeViewController: BaseViewController {
     // MARK:- UIElements
     
     
-    private lazy var startButton: CircularButton = {
-        let Button = CircularButton()
-        Button.translatesAutoresizingMaskIntoConstraints = false
-        Button.borderWidth = 10
-        Button.borderColor = .white
-        Button.titleText = "RUN"
-        Button.addTarget(self, action: #selector(startRunning), for: .touchUpInside)
-        return Button
+  lazy var startButton: CircularButton = {
+        let v = CircularButton()
+        v.translatesAutoresizingMaskIntoConstraints = false
+        v.borderWidth = 10
+        v.borderColor = .white
+        v.titleText = "RUN"
+        v.addTarget(self, action: #selector(startRunning), for: .touchUpInside)
+        return v
     }()
     
   
