@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="Arts/run.gif" height="500">
+  <img src="gif/run.gif" height="500">
   
   
  
